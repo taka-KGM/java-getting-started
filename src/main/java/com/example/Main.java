@@ -61,7 +61,7 @@ public class Main {
 
       ArrayList<String> output = new ArrayList<String>();
       while (rs.next()) {
-        output.add("Read from DB: " + rs.getStrings("sfid"));
+        output.add("Read from DB: " + rs.getStrings("name"));
       }
 
       model.put("records", output);
